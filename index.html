@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>作品集 | GodLiangJingYu</title>
+    <meta
+      name="description"
+      content="GodLiangJingYu 的项目作品展示：RobotScheduler、lianghua、codeSafety、easyEarn、MakeMoneySmallAPP"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="badge">NWPU · 软件工程 · 大三</div>
+        <h1 class="title">项目作品展示</h1>
+        <p class="subtitle">
+          我热爱大模型与多 Agent 系统，正在持续打磨可落地的应用与工程化能力。
+        </p>
+
+        <div class="actions">
+          <a
+            class="button"
+            href="https://github.com/GodLiangJingYu"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub 主页</a
+          >
+          <a class="button button--ghost" href="#projects">查看作品</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container" id="projects">
+      <section class="section">
+        <h2 class="section-title">精选项目</h2>
+        <p class="section-desc">
+          下面是我的五个仓库项目简介与核心逻辑流，点击可跳转到对应 GitHub 仓库。
+        </p>
+
+        <div class="grid">
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">RobotScheduler</h3>
+              <span class="tag">多 Agent · 调度 · 路径规划</span>
+            </div>
+            <p class="card-desc">
+              基于大模型与多 Agent 协作的大规模机器人智能调度系统，用于解决仓储场景中的死锁、路径冲突与动态障碍响应慢等问题。
+            </p>
+            <ul class="card-list">
+              <li>核心痛点：多机器人协作易死锁与冲突、全局效率低</li>
+              <li>
+                核心逻辑流：感知变化 → 评估周围 Agent 路径 → 预测拥堵概率 → 动态生成全局最优避障路由（冲突率显著降低）
+              </li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/GodLiangJingYu/RobotScheduler"
+              target="_blank"
+              rel="noreferrer"
+              >打开仓库 →</a
+            >
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">lianghua</h3>
+              <span class="tag">LLM · 量化 · 投研</span>
+            </div>
+            <p class="card-desc">
+              基于大模型分析与长链决策的自动化量化交易 Agent 矩阵，面向财报/新闻等非结构化信息的理解与交易执行闭环。
+            </p>
+            <ul class="card-list">
+              <li>核心痛点：传统量化难理解非结构化文本、策略滞后</li>
+              <li>
+                核心逻辑流：数据抓取 → 情感解析 → 长链推导（数据变动→产业影响→情绪发酵→量价异动）→ 执行 Agent 生成买卖信号
+              </li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/GodLiangJingYu/lianghua"
+              target="_blank"
+              rel="noreferrer"
+              >打开仓库 →</a
+            >
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">codeSafety</h3>
+              <span class="tag">安全审计 · 红蓝对抗 · 语义</span>
+            </div>
+            <p class="card-desc">
+              基于 LLM 深度语义理解的自动化代码漏洞挖掘 Agent，引入红蓝对抗协作，强调发现业务逻辑漏洞与跨文件越权。
+            </p>
+            <ul class="card-list">
+              <li>核心痛点：传统 AST/规则扫描误报高、难发现复杂逻辑漏洞</li>
+              <li>
+                核心逻辑流：攻击者 Agent 推演攻击链（入口污染→跨文件调用追踪→数据泄露判定）→ 防御者 Agent 生成精准修复 PR
+              </li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/GodLiangJingYu/codeSafety"
+              target="_blank"
+              rel="noreferrer"
+              >打开仓库 →</a
+            >
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">easyEarn</h3>
+              <span class="tag">推荐匹配 · 风控 · 反欺诈</span>
+            </div>
+            <p class="card-desc">
+              基于用户画像推理的自动化网赚任务匹配与反欺诈 Agent 平台，通过风控与匹配双 Agent 协作提升审核效率与任务质量。
+            </p>
+            <ul class="card-list">
+              <li>核心痛点：高价值任务匹配难、黑产/诱导任务多、人工审核成本高</li>
+              <li>
+                核心逻辑流：风控 Agent 深度语义解构任务 → 匹配 Agent 多步推理用户意图与偏好标签 → 千人千面分发（审核效率显著提升）
+              </li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/GodLiangJingYu/easyEarn"
+              target="_blank"
+              rel="noreferrer"
+              >打开仓库 →</a
+            >
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3 class="card-title">MakeMoneySmallAPP</h3>
+              <span class="tag">小程序后端 · 增长运营 · 数据推理</span>
+            </div>
+            <p class="card-desc">
+              由生成式 AI 驱动的智能变现与私域运营小程序后端引擎，内置自动化运营多 Agent 协作系统，面向用户留存与内容/策略迭代。
+            </p>
+            <ul class="card-list">
+              <li>核心痛点：内容同质化、人工运营僵化、留存率低难覆盖获客成本</li>
+              <li>核心逻辑流：多 Agent 基于用户埋点数据进行长链推理与策略生成</li>
+            </ul>
+            <a
+              class="card-link"
+              href="https://github.com/GodLiangJingYu/MakeMoneySmallAPP"
+              target="_blank"
+              rel="noreferrer"
+              >打开仓库 →</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--support">
+        <h2 class="section-title">支持与联系</h2>
+        <p class="section-desc">
+          我目前在学习与实践大模型相关技术，因为资金有限，很多模型平台订阅成本较高。
+          如果你愿意支持我继续学习与开源实践，欢迎与我联系或在 GitHub 上给项目点个 Star。
+        </p>
+
+        <div class="support-box">
+          <div class="support-item">
+            <div class="support-title">我正在关注</div>
+            <div class="support-text">LLM 应用落地、Agent 协作、工程化与安全</div>
+          </div>
+          <div class="support-item">
+            <div class="support-title">欢迎交流</div>
+            <div class="support-text">
+              在 GitHub 给我留言：
+              <a href="https://github.com/GodLiangJingYu" target="_blank" rel="noreferrer"
+                >@GodLiangJingYu</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> GodLiangJingYu</span>
+        <a class="footer-link" href="#">回到顶部</a>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>
+
